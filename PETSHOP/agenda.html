@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cãoveniência</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="loja.html">
+    <link rel="stylesheet" href="contato.html">
+    <link rel="stylesheet" href="adocao.html">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+
+    <header class="cabecalho">
+        <div class="container">
+
+            <div>
+                <a href="index.html">
+                    <img id="home" src="./IMG/logo.png" alt="">
+                </a>
+            </div>
+
+            <nav class="cabeca">
+                <a href="loja.html">
+                    Loja
+                </a>
+
+                <a href="#">
+                    Agenda
+                </a>
+
+                <a href="contato.html">
+                    Contato
+                </a>
+
+                <a href="adocao.html">
+                    Adoção
+                </a>
+            </nav>
+
+        </div>
+
+    </header>
+
+    <!-- Header -->
+
+    <!-- agenda -->
+
+    <section>
+        <div class="corpo">
+            <div class="caixa">
+                <div class="texto_1">
+                    <h1>Faça aqui seu agendamento!</h1>
+                </div>
+                <form action="input">
+
+                    <div>
+                        <div>
+                            <fieldset class="login">
+                                <legend>Preencha abaixo:</legend>
+                                <label>Nome Completo:</label>
+                                <input type="name" /><br>
+                                <label>Email:</label>
+                                <input type="email" /> <br>
+                                <label>Telefone:</label>
+                                <input type="tel" /><br>
+                                <label>Qual seria sua escolha?</label>
+                                <select name="" id="">
+                                    <option value="Tosagem">Tosagem</option>
+                                    <option value="Banho">Banho</option>
+                                    <option value="Avaliação Médica">Avaliação Médica</option>
+                                </select><br>
+                                <label>Selecione uma data:</label>
+                                <input type="date" /><br>
+                                <label>Selecione um horário:</label>
+                                <input type="time" /><br>
+                            </fieldset>
+                        </div>
+
+                        <div class="botao">
+                            <input class="botao_1" type="button" onclick="funcao1()" value="Enviar Formulario" />
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+        <script>
+            
+            function funcao1() {
+                alert("Seu agendamento esta O K!");
+            }
+
+        </script>
+
+    </section>
+
+    <!-- agenda -->
+
+    <!-- footer -->
+
+    <footer>
+        <div class="rodape">
+            <div class="esquerda">
+                <div>
+                    <h1>CÃOVENIÊNCIA PETSHOP</h1>
+                    <p>© 2022 Cãoveniência Petshop. Todos os direitos reservados.</p>
+                </div>
+            </div>
+
+            <div class="direita">
+                <div>
+                    <h1>Fale conosco</h1>
+                    <p>caovenienciapetshop@gmail.com</p>
+                </div>
+
+                <div>
+                    <img width="200px" src="./IMG/redes-sociais.png" alt="icones de redes sociais">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- footer -->
+
+</body>
+
+</html>

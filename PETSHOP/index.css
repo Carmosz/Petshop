@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* header */
+
+.cabecalho {
+    font-weight: bold;
+    font-size: 24px;
+    word-spacing: 2rem;
+    text-align: right;
+    display: flex;
+    justify-content: right;
+    line-height: 5rem;
+    background: rgb(255, 189, 0);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    font-family: "Fredoka One", cursive;
+}
+
+a {
+    Text-decoration-line: none;
+    -moz-text-decoration-line: none;
+    -moz-text-decoration-style: none;
+    color: rgb(0 169 166);
+}
+
+/* header */
+
+/* home */
+
+#home {
+    width: 100px;
+    margin-top: 30px;
+}
+
+.container,
+.corpo {
+    justify-content: space-between;
+    color: white;
+    background: rgb(255, 189, 0);
+    padding: 0px 40px;
+    flex: 1 1 0%;
+}
+
+.corpo {
+    font-family: DynaPuff, cursive;
+    font-size: 20px;
+    text-align: center;
+}
+
+.texto_1 {
+    padding-bottom: 35px;
+}
+
+.adotar {
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    padding: 35px 0px;
+}
+
+.valores {
+    text-align: left;
+    padding: 20px;
+}
+
+
+.auau {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/* home */
+/* loja */
+
+#title {
+    padding-bottom: 20px;
+}
+
+#table {
+    padding-bottom: 50px;
+}
+
+#customers {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td,
+#customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    background: #f2f2f2;
+    color: black;
+}
+
+#customers tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+    background-color: #ddd;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(0, 169, 166);
+    color: black;
+}
+
+
+/* loja */
+
+/* agenda */
+
+.input {
+    text-align: left;
+    padding: 50px 0;
+}
+
+.login {
+    text-align: left;
+    padding: 27px;
+    line-height: 35px;
+}
+
+.botao {
+    padding: 40px 0;
+    text-align: left;
+}
+
+.botao_1 {
+    width: 20%;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 4px;
+    background: #f2f2f2;
+}
+/* agenda */
+
+/* contato */
+.contato {
+    padding: 20px 0;
+    text-align: left;
+}
+
+button {
+    width: 40%;
+    height: 40px;
+    cursor: pointer;
+}
+
+/* adoção */
+
+ul {
+    list-style: none;
+    padding: 20px 0;
+}
+/* footer */
+
+footer {
+    color: white;
+    font-family: DynaPuff, cursive;
+    background: rgb(0, 169, 166);
+    padding: 37px 31px;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 30px;
+    font-size: 12px;
+}
